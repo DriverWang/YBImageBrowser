@@ -30,7 +30,6 @@ Pod::Spec.new do |s|
   s.subspec "Core" do |core|
     core.source_files   = "YBImageBrowser/**/*.{h,m}"
     core.resources      = "YBImageBrowser/YBImageBrowser.bundle"
-    core.dependency 'YYImage'
     core.dependency 'SDWebImage', '>= 5.0.0'
   end
   s.subspec "NOSD" do |core|
